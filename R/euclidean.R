@@ -3,6 +3,8 @@
 #' @param a An integer
 #' @param b An integer
 #' @return The greatest common divisor of \code{a} and \code{b}
+#' @description Euclidian algorithm to find the greatest common divisor of two numbers
+#' @author Simon and Mohamed
 #' @examples
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)

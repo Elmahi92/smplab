@@ -15,7 +15,7 @@ euclidean(a, b)
 The greatest common divisor of \code{a} and \code{b}
 }
 \description{
-Euclidean algorithm
+Euclidian algorithm to find the greatest common divisor of two numbers
 }
 \examples{
 euclidean(123612, 13892347912)
@@ -23,4 +23,7 @@ euclidean(100, 1000)
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+}
+\author{
+Simon and Mohamed
 }

@@ -51,32 +51,9 @@ Simon & Mohamed
     %% ~~objects to See Also as \code{\link{help}}, ~~~
   }
 \examples{
-  ##---- Should be DIRECTLY executable !! ----
-  ##-- ==>  Define data, use random,
-  ##--	or do  help(data=index)  for the standard data sets.
-  
-  ## The function is currently defined as
-  dijkstra <- function(graph, init_node) {
-    nodes <- unique(graph[,1])
-    dist <- rep(Inf, length(nodes))
-    unvisited <- rep(TRUE, length(nodes))
-    res <- data.frame(nodes, dist, unvisited)
-    
-    res[init_node,2] <- 0
-    
-    while(sum(res[,3], na.rm = TRUE) > 0) {
-      u <- res[which(res[,3] == TRUE),][which.min(res[which(res[,3] == TRUE),][,2]),1]
-      res[u,3] <- FALSE
-      neighbors <- graph[which(graph[,2] == u),1]
-      
-      for(neighbor in neighbors) {
-        alt <- res[u,2] + graph[which(graph[,1] == u & graph[,2] == neighbor),3]
-        if(alt < res[neighbor,2]) {
-          res[neighbor,2] <- alt
-        }
-      }
-    }
-    return(res[,2])
+dijkstra(data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
+v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5),
+w=c(7,9,14,7,10,15,9,10,11,2,15,11,6,6,9,14,2,9)), 1)
   }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

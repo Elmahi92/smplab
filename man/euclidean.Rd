@@ -60,20 +60,7 @@ Simon & Mohamed
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-
-## The function is currently defined as
-function (a, b) 
-{
-    while (b != 0) {
-        t <- b
-        b <- a\%\%b
-        a <- t
-    }
-    return(a)
-  }
+euclidean(123612, 13892347912)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

@@ -1,26 +1,19 @@
 \name{euclidean}
 \alias{euclidean}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{Euclidian algorithm 
-%%  ~~function to do ... ~~
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Euclidian algorithm to find the greatest common divisor of two numbers
 }
 \usage{
 euclidean(a, b)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{a}{
-  Numeric scalars
-or integers
-%%     ~~Describe \code{a} here~~
+  Numeric scalarsor integers
 }
   \item{b}{
-  Numeric scalars
-or integers
-%%     ~~Describe \code{b} here~~
+  Numeric scalars or integers
 }
 }
 \details{Euclidian algorithm to find the greatest common divisor of two
@@ -32,35 +25,13 @@ function gcd(a, b)
         else
             b := b − a
     return a
-%%  ~~ If necessary, more details than the description above ~~
-}
-\value{
-Greatest common divisor of two numbers
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
-%% ~put references to the literature/web site here ~
 }
 \author{
-Simon & Mohamed
-%%  ~~who you are~~
-}
-\note{
-%%  ~~further notes~~
-}
-
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+Simon & Mohamed}
 \examples{
 euclidean(123612, 13892347912)
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
+

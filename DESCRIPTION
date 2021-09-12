@@ -5,7 +5,7 @@ Authors@R: c(
     person("Simon", "Elsen", email = "simal451@student.liu.se", role = c("cre")),
     person("Mohamed", "Ali", email = "mohal954@student.liu.se", role = c("aut")))
 Description: Euclidian algorithm to find the greates common divisor of two integers and Dijkstras to find shortest path algorithm in a graph.
-License: CC-O
+License: CC0
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)

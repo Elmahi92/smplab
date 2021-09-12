@@ -30,8 +30,6 @@ function gcd(a, b)
 \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
 \author{
-Simon & Mohamed}
-\examples{
-euclidean(123612, 13892347912)
+Simon & Mohamed
 }
 
